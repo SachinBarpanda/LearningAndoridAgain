@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_business"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/i_don_t_know"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/company_logo" />
+
+
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_gmail_com"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ghar_ke_paas"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:textSize="28sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chill_maaroo_aur_kya"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/hourOfOperation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/so_jao_bencho"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>

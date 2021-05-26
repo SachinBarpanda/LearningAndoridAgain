@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CompanyApp</string>
+    <string name="this_is_business">This is Business</string>
+    <string name="i_don_t_know">I don\'t know</string>
+    <string name="contact_gmail_com">Contact info :"\n"contact@gmail.com</string>
+    <string name="ghar_ke_paas">Address : Ghar ke Paas</string>
+    <string name="chill_maaroo_aur_kya">Description of Business : Chill Maaroo aur kya</string>
+    <string name="so_jao_bencho">Hours of Operation : So Jao bencho</string>
+</resources>
