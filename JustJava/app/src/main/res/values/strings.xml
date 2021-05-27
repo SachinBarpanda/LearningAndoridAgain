@@ -4,5 +4,6 @@
     <string name="button">Button</string>
     <string name="order">Order</string>
     <string name="quantity">QUANTITY</string>
+    <string name="price">PRICE</string>
 
 </resources>

@@ -20,6 +20,20 @@
         android:text="@string/_0"
         android:textSize="16sp"
         android:layout_marginStart="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price"
+        android:layout_margin="16dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"/>
 
     <Button
         android:id="@+id/button"
