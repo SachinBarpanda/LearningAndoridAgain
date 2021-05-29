@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void submitOrders(View view) {
-        int quantity = 2;
+    public void submitOrder(View view) {
+        int quantity = 5;
         display(quantity);
         displayPrice(quantity * 5);
     }
@@ -30,5 +30,15 @@ public class MainActivity extends AppCompatActivity {
     private void displayPrice(int number) {
         TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
         priceTextView.setText(NumberFormat.getCurrencyInstance().format(number));
+    }
+
+    public void decrement(View view) {
+        int quantity = 1;
+        display(quantity);
+    }
+
+    public void increment(View view) {
+        int quantity =3;
+        display(quantity);
     }
 }
